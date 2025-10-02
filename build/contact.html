@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
+            <!-- Logo -->
+            <div>
+                <h1 class="2xl:text-2xl lg:text-xl leading-8 font-bold">UNIGESTA SA</h1>
+            </div>
+
+            <!-- Desktop Menu (lg and above) -->
+            <ul class="hidden lg:flex gap-11">
+                <li class="text-[#657381] 2xl:text-base xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./privacy and policy.html">Accueil</a></li>
+                <li class="text-[#657381] 2xl:text-base xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./service.html">Services</a></li>
+                <li class="text-[#D7B242] 2xl:text-base xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="">Contact</a></li>
+            </ul>
+
+            <!-- Desktop Button (lg and above) -->
+            <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
+                <button class="2xl:text-base  text-xs leading-5 font-normal">022 809 03 10</button>
+            </div>
+            <!-- Mobile + MD Toggle -->
+            <div class="lg:hidden relative">
+                <button id="menu-toggle" class="p-2">
+                    <!-- Hamburger Icon -->
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+
+                    <!-- Close Icon (hidden by default) -->
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <!-- Mobile/MD Menu -->
+                <ul id="mobile-menu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden">
+                    <li class="text-[#D7B242] text-xs leading-5 font-normal border-b border-gray-200">
+                        <a href="" class="block px-4 py-2">Accueil</a>
+                    </li>
+                    <li class="text-[#657381] text-xs leading-5 font-normal border-b border-gray-200">
+                        <a href="" class="block px-4 py-2">Services</a>
+                    </li>
+                    <li class="text-[#657381] text-xs leading-5 font-normal">
+                        <a href="" class="block px-4 py-2">Contact</a>
+                    </li>
+                    <li class="bg-[#D7B242] rounded-md my-2 mx-2 text-center">
+                        <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+
+    <section style="background-image: url(./assets/img/blurimg.png);"
+        class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[337px] h-[220px]">
+        <div class="text-center text-white 2xl:py-20 py-10 2xl:px-4 lg:px-10 px-5">
+            <div>
+                <h1 class="2xl:text-[58px] xl:text-4xl text-2xl 2xl:leading-[66px] leading-7 font-bold text-[#192634]">
+                    Contactez-nous
+                </h1>
+            </div>
+            <div class="2xl:pt-5 pt-3">
+                <p
+                    class="2xl:text-base xl:text-sm text-xs 2xl:leading-7 xl:leading-6 md:leading-6 leading-5 font-normal text-[#657381]">
+                    Prêt à discuter de vos besoins d'assurance ? Notre équipe d'experts est là pour vous fournir des<br
+                        class="lg:block hidden">
+                    conseils personnalisés et une expertise adaptée à votre situation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="w-full bg-white 2xl:px-36 lg:px-10 px-5 py-12">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
+
+            <div class="bg-white px-8 pt-8 rounded-2xl shadow pb-28">
+                <h2 class="text-xl font-bold leading-8">Demande d'offre ou d'information</h2>
+
+                <form action="#" method="POST" class="space-y-5">
+                    <div class="grid grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-xs font-normal leading-3 pt-7 pb-3">Prénom *</label>
+                            <input type="text" placeholder="Votre prénom"
+                                class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-3 py-3 ">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-normal leading-3  pt-7 pb-3">Nom *</label>
+                            <input type="text" placeholder="Votre nom"
+                                class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-3 py-3  ">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-normal leading-3 pt-7">Email *</label>
+                        <input type="email" placeholder="votre.email@exemple.ch"
+                            class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-normal pt-7">Téléphone</label>
+                        <input type="tel" placeholder="+41 22 xxx xx xx"
+                            class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-normal leading-3 pt-7">Type de demande *</label>
+                        <select
+                            class="block w-full text-xs font-normal leading-5 bg-[#FCFCFC] border border-[#E9E7E2] rounded-md mt-3 px-3 py-3">
+                            <option>Sélectionnez le type de demande</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-normal leading-3 pt-7">Message *</label>
+                        <textarea rows="4" placeholder="Décrivez votre demande ou vos besoins spécifiques..."
+                            class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3"></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-normal leading-3 pt-7">Contact préféré</label>
+                        <select
+                            class="bg-[#FCFCFC] border border-[#E9E7E2] w-full block text-xs font-normal leading-3 rounded-md px-4 py-2 mt-3">
+                            <option>Comment préférez-vous être contacté ?</option>
+                        </select>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-[#D7B242] text-black text-xs font-normal leading-5 py-3 rounded-md flex items-center justify-center gap-2 mt-6">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M22 2L11 13"></path>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+                        </svg>
+                        Envoyer la demande
+                    </button>
+                    <p class="block text-xs font-normal leading-5 pt-6">* Champs obligatoires. Vos données sont traitées
+                        en toute
+                        confidentialité.</p>
+                </form>
+            </div>
+            <div class="space-y-8">
+                <div class="">
+                    <div class="flex gap-4 ">
+                        <div>
+                            <img src="./assets/img/location.png" class="2xl:w-full md:w-10 w-12" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <h1
+                                    class="2xl:text-base xl:text-2xl lg:text-base text-xl 2xl:leading-7 leading-5 font-bold">
+                                    Adresse</h1>
+                            </div>
+                            <div class="pt-2">
+                                <p class="2xl:text-sm xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">
+                                    Rue de
+                                    la Filature 42
+                                    <br class="lg:block md:block hidden">
+                                    1227 Carouge (Genève) <br class="lg:block md:block hidden">Suisse
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 pt-8">
+                        <div>
+                            <img src="./assets/img/call2.png" class="2xl:w-full md:w-10 w-11" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <h1
+                                    class="2xl:text-base xl:text-2xl lg:text-base text-xl 2xl:leading-7 leading-5 font-bold">
+                                    Téléphone
+                                </h1>
+                            </div>
+                            <div class="pt-2">
+                                <p class="2xl:text-sm xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">
+                                    022
+                                    809 03 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 pt-8">
+                        <div>
+                            <img src="./assets/img/mailbx.png" class="2xl:w-full md:w-10 w-11" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <h1
+                                    class="2xl:text-base xl:text-2xl lg:text-base text-xl 2xl:leading-7 leading-5 font-bold">
+                                    Email</h1>
+                            </div>
+                            <div class="pt-2">
+                                <p class="2xl:text-sm xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">
+                                    info@unigesta.ch</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 pt-8">
+                        <div>
+                            <img src="./assets/img/clockq.png" class="2xl:w-full lg:w-16 md:w-10 w-14" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <h1
+                                    class="2xl:text-base xl:text-2xl lg:text-base text-xl 2xl:leading-7 leading-5 font-bold ">
+                                    Heures
+                                    d'Ouverture</h1>
+                            </div>
+                            <div class="pt-2">
+                                <p class="2xl:text-sm xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">
+                                    Lundi
+                                    - Vendredi: 8h30 - 17h30 <br class="xl:block lg:hidden md:block hidden">
+                                    Samedi: Sur rendez-vous</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#192634]/5 border border-[#192634]/10 p-6 rounded-lg ">
+                    <h1 class="2xl:text-base xl:text-2xl lg:text-base text-xl 2xl:leading-7 leading-5 font-bold">Contact
+                        direct</h1>
+                    <a href="tel:0228090310"
+                        class="block bg-[#D7B242] text-black py-3 px-4 rounded-lg font-medium flex"><img src="./assets/img/svgcal.png" alt="">Appelez-nous
+                        : 022 809 03 10</a>
+                    <a href="mailto:unigesta@unigesta.ch"
+                        class="block bg-white border-2 border-black py-3 px-4 rounded-lg font-medium mt-3 text-[#192634] flex"> <div><img src="./assets/img/svgmail.png" alt=""></div>unigesta@unigesta.ch</a>
+                </div>
+
+                <a href="https://www.google.com/maps/place/Rue+de+la+Filature+42,+1227+Carouge,+Suisse" target="_blank"
+                    class="lg:flex items-center justify-center text-center bg-[#F6F5F3] border border-[#E9E7E2] p-6 rounded-lg transition h-96">
+                    <div>
+                        <div class="flex justify-center">
+                            <img src="./assets/img/locat.png" alt="">
+                        </div>
+                        <div>
+                            <p class="pt-2 2xl:text-sm xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">
+                                Rue de la Filature 42 <br>
+                                1227 Carouge (Genève)
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        const toggleButton = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        toggleButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            hamburgerIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
