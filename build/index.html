@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
+      <!-- Logo -->
+      <div>
+        <h1 class="2xl:text-2xl lg:text-xl leading-8 font-bold">UNIGESTA SA</h1>
+      </div>
+
+      <!-- Desktop Menu (lg and above) -->
+      <ul class="hidden lg:flex gap-11">
+        <li class="text-[#D7B242] 2xl:text-2xl text-lg leading-5 font-normal"><a href="./privacy and policy.html">Accueil</a></li>
+        <li class="text-[#657381] 2xl:text-2xl text-lg leading-5 font-normal"><a href="">Services</a></li>
+        <li class="text-[#657381] 2xl:text-2xl text-lg leading-5 font-normal"><a href="">Contact</a></li>
+      </ul>
+
+      <!-- Desktop Button (lg and above) -->
+      <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
+        <button class="2xl:text-base text-xs leading-5 font-normal">022 809 03 10</button>
+      </div>
+      <!-- Mobile + MD Toggle -->
+      <div class="lg:hidden relative">
+        <button id="menu-toggle" class="p-2">
+          <!-- Hamburger Icon -->
+          <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+
+          <!-- Close Icon (hidden by default) -->
+          <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <!-- Mobile/MD Menu -->
+        <ul id="mobile-menu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden">
+          <li class="text-[#D7B242] text-xs leading-5 font-normal border-b border-gray-200">
+            <a href="" class="block px-4 py-2">Accueil</a>
+          </li>
+          <li class="text-[#657381] text-xs leading-5 font-normal border-b border-gray-200">
+            <a href="" class="block px-4 py-2">Services</a>
+          </li>
+          <li class="text-[#657381] text-xs leading-5 font-normal">
+            <a href="" class="block px-4 py-2">Contact</a>
+          </li>
+          <li class="bg-[#D7B242] rounded-md my-2 mx-2 text-center">
+            <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+
+  <section style="background-image: url('./assets/img/Section.png');"
+    class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[1080px] xl:h-[809px] lg:h-[577px] h-[480px]">
+
+    <div class="flex justify-center 2xl:pt-80 xl:pt-52 lg:pt-32 md:pt-28 pt-5 2xl:px-4 lg:px-10 px-5">
+      <div>
+        <div>
+          <h1 class="2xl:text-6xl xl:text-5xl text-4xl 2xl:leading-[66px] xl:leading-[50px] font-bold text-white">
+            UNIGESTA SA</h1>
+        </div>
+        <div class="pt-2">
+          <h2
+            class="2xl:text-[42px] xl:text-3xl text-xl 2xl:leading-[48px] xl:leading-[45px] lg:leading-8 leading-8 font-normal text-[#FAFAFA]/90">
+            Votre
+            Partenaire de Confiance en <br class="lg:block hidden">
+            Gestion d'Assurances</h2>
+        </div>
+        <div class="2xl:pt-6 pt-3">
+          <p
+            class="2xl:text-xl xl:text-base text-xs 2xl:leading-8 xl:leading-7 lg:leading-5 leading-6 font-normal text-[#FAFAFA]/80">
+            Au service de Carouge et
+            du Grand Genève depuis
+            2007 avec <br class="lg:block hidden">
+            des solutions d'assurance personnalisées et des conseils <br class="lg:block hidden">
+            d'experts en qui vous pouvez avoir confiance.</p>
+        </div>
+        <div class="2xl:pt-8 lg:pt-3 pt-4 lg:flex md:grid grid-cols-2 gap-4 items-center">
+          <div class="bg-[#D7B242] inline-block 2xl:py-4 py-2 2xl:px-8 px-3 rounded-md">
+            <button class="2xl:text-sm text-xs 2xl:leading-7 leading-5 font-normal">Contactez-nous pour une Consultation
+              Personnalisée</button>
+          </div>
+          <div class="md:flex-col flex justify-center">
+            <div
+              class=" border-2 border-[#FAFAFA]/20 2xl:py-4 py-2 2xl:px-8 px-3 rounded-md lg:mt-0 md:mt-0 mt-3 inline-block">
+              <button class="2xl:text-base text-xs 2xl:leading-7 leading-0 font-normal text-[#FCFBF8]">En Savoir Plus
+                sur Nos
+                Services</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-[#F6F5F3] pt-20 pb-20 2xl:px-36 lg:px-10 px-5">
+      <div class="text-center">
+        <div>
+          <h1 class="2xl:text-3xl xl:text-4xl md:text-3xl text-2xl leading-9 font-bold">À Propos d'UNIGESTA SA</h1>
+        </div>
+        <div class="pt-5">
+          <p class="2xl:text-sm xl:text-sm text-xs 2xl:leading-7 leading-6 font-normal text-[#657381]">Fondée en 2007,
+            UNIGESTA SA fournit des services
+            indépendants de courtage et de gestion <br class="lg:block hidden">
+            d'assurances avec un accent sur un service sur mesure et fiable pour nos clients dans toute la <br
+              class="lg:block hidden">
+            région de Genève.</p>
+        </div>
+        <div class="pt-8">
+          <p class="2xl:text-sm xl:text-sm text-xs 2xl:leading-7 leading-6 font-normal text-[#657381]">Sous la direction
+            expérimentée d'Olivier Marrone, nous
+            combinons des décennies d'expertise industrielle <br class="lg:block hidden">
+            avec une touche personnelle, garantissant que chaque client reçoit l'attention et les solutions
+            personnalisées <br class="lg:block hidden">
+            qu'il mérite.</p>
+        </div>
+      </div>
+      <div class="pt-16 lg:flex md:grid md:grid-cols-2 justify-center 2xl:gap-8 lg:gap-5 gap-y-10">
+        <div class="flex justify-center">
+          <div class="bg-white rounded-lg 2xl:py-6 lg:py-4 py-6 2xl:px-9 lg:px-6 px-9 inline-block text-center">
+            <div class="flex justify-center">
+              <img src="./assets/img/fondee.png" alt="">
+            </div>
+            <div class="pt-4">
+              <h1 class="2xl:text-2xl xl:text-xl lg:text-base text-lg 2xl:leading-7 lg:leading-4 leading-7 font-bold">
+                Fondée en 2007</h1>
+            </div>
+            <div class="pt-2">
+              <p class="2xl:text-base xl:text-sm lg:text-xs text-sm 2xl:leading-6 lg:leading-4 leading-6 font-normal">
+                Plus
+                de 15 ans de service de <br>
+                confiance à Genève</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center 2xl:pt-0 md:pt-0 pt-3">
+          <div class="bg-white rounded-lg 2xl:py-6 lg:py-4 py-6 2xl:px-8 lg:px-6 px-8 inline-block text-center">
+            <div class="flex justify-center">
+              <img src="./assets/img/people.png" alt="">
+            </div>
+            <div class="pt-4">
+              <h1 class="2xl:text-2xl xl:text-xl lg:text-base text-lg 2xl:leading-7 lg:leading-4 leading-7 font-bold">
+                Approche Personnelle</h1>
+            </div>
+            <div class="pt-2">
+              <p class="2xl:text-base xl:text-sm lg:text-xs text-sm 2xl:leading-6 lg:leading-4 leading-6 font-normal">
+                Attention dédiée aux besoins <br>
+                uniques de chaque client</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center 2xl:pt-0 md:pt-0 pt-3">
+          <div class="bg-white rounded-lg 2xl:py-6 lg:py-4 py-6 2xl:px-9 xl:px-8 lg:px-6 px-9 inline-block text-center">
+            <div class="flex justify-center">
+              <img src="./assets/img/bach.png" alt="">
+            </div>
+            <div class="pt-4">
+              <h1 class="2xl:text-2xl xl:text-xl lg:text-base text-lg 2xl:leading-7 lg:leading-4 leading-7 font-bold">
+                Leadership Expert</h1>
+            </div>
+            <div class="pt-2">
+              <p class="2xl:text-base xl:text-sm lg:text-xs text-sm 2xl:leading-6 lg:leading-4 leading-6 font-normal">
+                Olivier Marrone apporte son <br>
+                expertise pratique</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center 2xl:pt-0 md:pt-0 pt-3">
+          <div class="bg-white rounded-lg 2xl:py-6 lg:py-4 py-6 2xl:px-6 lg:px-4 px-6 inline-block text-center">
+            <div class="flex justify-center">
+              <img src="./assets/img/service.png" alt="">
+            </div>
+            <div class="pt-4">
+              <h1 class="2xl:text-2xl xl:text-xl lg:text-base text-lg 2xl:leading-7 lg:leading-4 leading-7 font-bold">
+                Service Fiable</h1>
+            </div>
+            <div class="pt-2">
+              <p class="2xl:text-base xl:text-sm lg:text-xs text-sm 2xl:leading-6 lg:leading-4 leading-6 font-normal">
+                Gestion d'assurance cohérente <br>
+                et fiable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 bg-white">
+      <div class="text-center">
+        <div>
+          <h1 class="2xl:text-[28px]  text-2xl leading-9 font-bold">Nos Services</h1>
+        </div>
+        <div class="pt-5">
+          <p class="2xl:text-sm text-xs md:leading-6 leading-7 font-normal">Nous offrons une gamme complète de services
+            d'assurance
+            et
+            financiers, chacun <br class="lg:block hidden">
+            adapté pour répondre à vos besoins et circonstances spécifiques.</p>
+        </div>
+      </div>
+      <div class="lg:grid lg:grid-cols-3 md:grid grid-cols-2 2xl:gap-8 xl:gap-7 gap-4 2xl:pt-16 pt-8">
+        <div class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/shield.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Assurances Personnelles
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">Couverture
+                  complète pour vos <br>
+                  besoins en habitation, auto, santé <br>
+                  et responsabilité civile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex lg:mt-0 md:mt-0 mt-3">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/tab.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Assurances Entreprises
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">Solutions
+                  de responsabilité <br>
+                  professionnelle, propriété et <br>
+                  couverture commerciale pour les <br> entreprises. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex lg:mt-0 md:mt-0 mt-3">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/ani.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Planification de
+                  Retraite</h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">
+                  Planification stratégique de la <br>
+                  retraite et optimisation des <br>
+                  pensions pour votre sécurité future.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex lg:mt-0 md:mt-0 mt-3">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/clentder.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Évaluation des Risques
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">Évaluation
+                  et analyse approfondies
+                  <br>
+                  des risques potentiels pour vos <br>
+                  actifs et votre entreprise.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex lg:mt-0 md:mt-0 mt-3">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/arrow.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Conseils en Financement
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">Orientation
+                  experte sur la <br>
+                  planification financière liée aux <br>
+                  assurances et les stratégies <br> d'investissement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex lg:mt-0 md:mt-0 mt-3">
+          <div class="flex 2xl:gap-4 lg:gap-2 gap-4">
+            <div>
+              <div>
+                <img src="./assets/img/call.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              </div>
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-xl text-base 2xl:leading-8 leading-7 font-bold">Gestion des Sinistres
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <p class="2xl:text-xl xl:text-base text-xs 2xl:leading-9 xl:leading-8 leading-7 font-normal">Soutien
+                  professionnel et <br>
+                  accompagnement tout au long du <br>
+                  processus de réclamation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="bg-[#f7f7f5] 2xl:px-36 lg:px-10 px-5 pt-20 2xl:pb-20 pb-10 w-full">
+      <div class="text-center">
+        <div>
+          <h1 class="2xl:text-[28px] text-xl 2xl:leading-9 leading-7 font-bold">Pourquoi Choisir UNIGESTA SA</h1>
+        </div>
+        <div class="2xl:pt-5 pt-3">
+          <p class="2xl:text-sm text-xs 2xl:leading-7 md:leading-6 leading-5 font-normal">Notre engagement envers
+            l'excellence, le service
+            personnalisé et l'expertise <br class="lg:block hidden">
+            industrielle approfondie nous distingue dans le domaine de la gestion d'assurance.</p>
+        </div>
+      </div>
+      <div class="lg:flex justify-around items-center pt-16">
+        <div class="">
+          <div class="flex gap-4 lg:pt-0 pt-10">
+            <div>
+              <img src="./assets/img/circle tik.png" class="2xl:w-full lg:w-10 md:w-10 w-20" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Historique
+                  Prouvé</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">Plus de 15 ans de
+                  service cohérent et fiable avec un accent sur
+                  la <br class="lg:block md:block hidden">
+                  satisfaction client et les résultats réussis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/circleheart.png" class="2xl:w-full md:w-10 w-28" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Touche
+                  Personnelle</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">Nous prenons le temps de
+                  comprendre votre situation unique et <br class="lg:block md:block hidden">
+                  fournissons des solutions personnalisées qui correspondent à votre style <br
+                    class="lg:block hidden">de vie.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/light.png" class="2xl:w-full md:w-10 w-28" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">
+                  Connaissance Experte</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">Une expertise
+                  industrielle approfondie et une formation continue <br class="lg:block md:block hidden">
+                  garantissent que vous recevez les conseils les plus actuels et efficaces.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/dg.png" class="2xl:w-full md:w-10 w-28" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Partenariat
+                  à Long Terme</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">Nous construisons des
+                  relations durables, vous soutenant à travers les <br class="lg:block md:block hidden">
+                  changements de vie et l'évolution des besoins d'assurance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:pt-0 pt-10">
+          <div class="bg-white 2xl:p-8 p-4 text-center rounded-2xl">
+            <div class="inline-block">
+              <img src="./assets/img/heartt.png" class="2xl:w-full xl:w-14 md:w-10 w-16" alt="">
+            </div>
+            <div class="pt-6">
+              <h1 class="2xl:text-2xl xl:text-2xl text-xl 2xl:leading-9 leading-5 font-bold">Fondé sur la Confiance</h1>
+            </div>
+            <div class="inline-block pt-4">
+              <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal">"Chez UNIGESTA SA, nous
+                comprenons que l'assurance, c'est plus <br class="lg:block md:block hidden">
+                que des polices— c'est la tranquillité d'esprit. Nos clients nous font <br
+                  class="lg:block md:block hidden">
+                confiance pour protéger ce qui compte le plus pour eux, et nous <br class="lg:block md:block hidden">
+                honorons cette confiance chaque jour."</p>
+            </div>
+            <div class=" pt-6">
+              <h2 class="text-[#D7B242] text-sm leading-6 font-normal">— Olivier Marrone, Fondateur</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-[#192634] 2xl:px-36 lg:px-10 px-5 pt-20 pb-20">
+      <div class="text-center text-white">
+        <div>
+          <h1 class="2xl:text-[28px] text-xl 2xl:leading-9 leading-7 font-bold">Contactez-nous</h1>
+        </div>
+        <div class="2xl:pt-5 pt-3">
+          <p class="2xl:text-sm text-xs 2xl:leading-7 md:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Prêt à
+            discuter de vos besoins
+            d'assurance? Nous sommes là pour fournir<br class="lg:block hidden">
+            des conseils personnalisés et une expertise adaptée à votre situation.</p>
+        </div>
+      </div>
+      <div class="lg:flex justify-center gap-96 2xl:pt-16 pt-9 text-white">
+        <div class="">
+          <div class="flex gap-4 ">
+            <div>
+              <img src="./assets/img/location.png" class="2xl:w-full md:w-10 w-12" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Adresse</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Rue de
+                  la Filature 42
+                  <br class="lg:block md:block hidden">
+                  1227 Carouge (Genève) <br class="lg:block md:block hidden">Suisse
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/call2.png" class="2xl:w-full md:w-10 w-11" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Téléphone
+                </h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">022
+                  809 03 10</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/mailbx.png" class="2xl:w-full md:w-10 w-11" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">
+                  Email</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">
+                  info@unigesta.ch</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-4 pt-8">
+            <div>
+              <img src="./assets/img/clockq.png" class="2xl:w-full md:w-10 w-14" alt="">
+            </div>
+            <div>
+              <div>
+                <h1 class="2xl:text-2xl xl:text-2xl  lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Heures
+                  d'Ouverture</h1>
+              </div>
+              <div class="pt-2">
+                <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Lundi
+                  - Vendredi: 8h30 - 17h30 <br class="lg:block md:block hidden">
+                  Samedi: Sur rendez-vous</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:pt-0 pt-10">
+          <div class="bg-[#FAFAFA]/5 border border-[#989898]/20 2xl:p-8 p-4 rounded-2xl">
+            <div class="pt-6">
+              <h1 class="2xl:text-2xl xl:text-2xl text-xl 2xl:leading-9 leading-5 font-bold">FPlanifiez Votre
+                Consultation</h1>
+            </div>
+            <div class="inline-block pt-4">
+              <p class="2xl:text-lg xl:text-base text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Faites
+                le premier pas vers
+                une meilleure protection d'assurance. <br class="lg:block md:block hidden">
+                Contactez-nous aujourd'hui pour une consultation personnalisée où nous <br
+                  class="lg:block md:block hidden">
+                évaluerons vos besoins et recommanderons les meilleures solutions <br class="lg:block md:block hidden">
+                pour votre situation.</p>
+            </div>
+            <div class="bg-[#D7B242] px-8 py-3 mt-6 rounded-md text-center">
+              <button class="text-sm leading-5 font-normal">Appelez 022 809 03 10</button>
+            </div>
+            <div class=" mt-4 border-2 border-[#FAFAFA]/20 px-8 py-3 rounded-md text-center">
+              <button class="text-sm leading-5 font-normal text-white">Envoyer un Email</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div
+      class="bg-white 2xl:px-36 lg:px-10 px-5 2xl:pt-12 pt-6 lg:flex justify-center 2xl:gap-60 xl:gap-16 gap-20 lg:text-start text-center ">
+      <div class="lg:flex gap-8">
+        <div>
+          <div>
+            <h1 class="2xl:text-3xl xl:text-2xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">UNIGESTA SA
+            </h1>
+          </div>
+          <div class="pt-4">
+            <p class="2xl:text-2xl xl:text-xl text-xs 2xl:leading-7 leading-5 font-normal text-[#657381]">Courtage et
+              gestion d'assurance indépendante au <br class="lg:block hidden">
+              service de Genève depuis 2007.</p>
+          </div>
+          <div class="2xl:pt-4 pt-2">
+            <p class="2xl:text-xl xl:text-lg text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">Rue de la
+              Filature 42 <br class="lg:block hidden">1227 Carouge (Genève)
+              <br>Suisse
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 class="text-[#192634] 2xl:text-3xl xl:text-2xl text-xl leading-8 font-bold">Nos Services</h1>
+          </div>
+          <ul class="pt-4">
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal ">Assurances Personnelles</li>
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal pt-2">Assurances Entreprises</li>
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal pt-2">Planification de Retraite</li>
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal pt-2">Évaluation des Risques</li>
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal pt-2">Conseils en Financement</li>
+            <li class="text-[#657381] 2xl:text-2xl xl:text-xl text-sm font-normal pt-2">Gestion des Sinistres</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="lg:pt-0 pt-3">
+          <h1 class="2xl:text-3xl xl:text-2xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">Contact</h1>
+        </div>
+        <div class="pt-4">
+          <p class="2xl:text-2xl xl:text-xl text-sm leading-7 font-normal text-[#657381]">Tél: 022 809 03 10</p>
+        </div>
+        <div class="pt-2">
+          <p class="2xl:text-xl xl:text-xl text-sm leading-7 font-normal text-[#657381]">Email: info@unigesta.ch</p>
+        </div>
+        <div class="pt-2">
+          <p class="2xl:text-xl xl:text-xl text-sm leading-7 font-normal text-[#657381]">Lundi - Vendredi: 8h30 - 17h30
+            <br>
+            Samedi: Sur rendez-vous</p>
+        </div>
+        <div class="2xl:pt-4 pt-2">
+          <p class="2xl:text-xl xl:text-xl text-sm leading-6 font-normal text-[#657381]">Rue de la Filature 42 <br>1227
+            Carouge
+            (Genève)
+            <br>Suisse
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="my-8 2xl:mx-72 xl:mx-36 lg:mx-20 mx-8">
+    <div class="pb-12">
+      <p class="2xl:text-base xl:text-xl text-sm leading-6 font-normal text-[#657381] text-center">© 2025 UNIGESTA SA.
+        Tous droits
+        réservés.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const toggleButton = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    toggleButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      hamburgerIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
