@@ -16,3 +16,24 @@ body {
 }
 
 
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content; /* so the slider has full natural width */
+  animation: scrollSlider 20s linear infinite;
+}
+
+.slider > div {
+  flex-shrink: 0; /* stop images from shrinking */
+}
+
