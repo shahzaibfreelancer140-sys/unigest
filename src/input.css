@@ -20,6 +20,7 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -29,11 +30,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: max-content; /* so the slider has full natural width */
-  animation: scrollSlider 20s linear infinite;
+  width: max-content;
+  animation: scrollSlider 60s linear infinite;
 }
 
-.slider > div {
-  flex-shrink: 0; /* stop images from shrinking */
+.slider>div {
+  flex-shrink: 0;
 }
 
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    /* Move exactly one full slider width to the left */
+    transform: translateX(calc(-100% + 100vw));
+  }
+}
