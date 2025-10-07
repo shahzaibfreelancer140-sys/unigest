@@ -10,62 +10,65 @@
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav>
-    <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
-      <!-- Logo -->
-      <div>
-        <h1 class="2xl:text-2xl lg:text-xl leading-8 font-bold">UNIGESTA SA</h1>
-      </div>
+    <!-- navbar -->
+    <nav>
+        <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
+            <!-- Logo -->
+            <div>
+                <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-48 lg:w-46 w-24" alt="">
+            </div>
 
-      <!-- Desktop Menu (lg and above) -->
-      <ul class="hidden lg:flex gap-11">
-        <li class="text-[#D7B242] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-            href="./privacy and policy.html">Accueil</a></li>
-        <li class="text-[#657381] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-            href="./service.html">Services</a></li>
-        <li class="text-[#657381] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-            href="./contact.html">Contact</a></li>
-      </ul>
+            <!-- Desktop Menu (lg and above) -->
+            <ul class="hidden lg:flex gap-11">
+                <li class="text-[#D7B242] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./index.html">Accueil</a></li>
+                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./service.html">Services</a></li>
+                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./contact.html">Contact</a></li>
+            </ul>
 
-      <!-- Desktop Button (lg and above) -->
-      <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
-        <button class="2xl:text-base  text-xs leading-5 font-normal">022 809 03 10</button>
-      </div>
-      <!-- Mobile + MD Toggle -->
-      <div class="lg:hidden relative">
-        <button id="menu-toggle" class="p-2">
-          <!-- Hamburger Icon -->
-          <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+            <!-- Desktop Button (lg and above) -->
+            <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
+                <button class="2xl:text-base  text-xs leading-5 font-normal">022 809 03 10</button>
+            </div>
+            <!-- Mobile + MD Toggle -->
+            <div class="lg:hidden relative">
+                <button id="menu-toggle" class="p-2">
+                    <!-- Hamburger Icon -->
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
 
-          <!-- Close Icon (hidden by default) -->
-          <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
+                    <!-- Close Icon (hidden by default) -->
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
 
-        <!-- Mobile/MD Menu -->
-        <ul id="mobile-menu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden">
-          <li class="text-[#D7B242] text-xs leading-5 font-normal border-b border-gray-200">
-            <a href="./privacy and policy.html" class="block px-4 py-2">Accueil</a>
-          </li>
-          <li class="text-[#657381] text-xs leading-5 font-normal border-b border-gray-200">
-            <a href="./service.html" class="block px-4 py-2">Services</a>
-          </li>
-          <li class="text-[#657381] text-xs leading-5 font-normal">
-            <a href="./contact.html" class="block px-4 py-2">Contact</a>
-          </li>
-          <li class="bg-[#D7B242] rounded-md my-2 mx-2 text-center">
-            <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
-          </li>
-        </ul>
-      </div>
-  </nav>
-  <!-- navbar end -->
+                <!-- Mobile/MD Menu -->
+                <ul id="mobile-menu"
+                    class="fixed top-[70px] left-0 right-0 w-full bg-white shadow-lg hidden z-50 px-5 py-3 text-center">
+                    <li class="text-[#D7B242] text-xs leading-5 font-normal py-2">
+                        <a href="./index.html" class="block">Accueil</a>
+                    </li>
+                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+                        <a href="./service.html" class="block">Services</a>
+                    </li>
+                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+                        <a href="./contact.html" class="block">Contact</a>
+                    </li>
+                    <li class="bg-[#D7B242] rounded-md my-2 text-center">
+                        <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- navbar end -->
   <!-- hero section -->
   <section style="background-image: url('./assets/img/Section.png');"
     class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[1080px] xl:h-[809px] lg:h-[577px] h-[480px]">
@@ -116,8 +119,8 @@
           <h1 class="2xl:text-3xl  md:text-3xl text-2xl leading-9 font-bold">À Propos d'UNIGESTA SA</h1>
         </div>
         <div class="pt-5">
-          <p class="2xl:text-sm  text-xs 2xl:leading-7  leading-6 font-normal text-[#657381]">
-            Fondée en 2007,UNIGESTA SA est une société indépendante de
+          <p class="2xl:text-sm  text-xs 2xl:leading-7  leading-6 font-normal text-[#2A333C]">
+            Fondée en 2007, UNIGESTA SA est une société indépendante de
             courtage et <br class="lg:block hidden"> de gestion
             d’assurances. Reconnue pour son professionnalisme et son approche sur <br class="lg:block hidden"> mesure,
             elle
@@ -126,7 +129,7 @@
             chacun.</p>
         </div>
         <div class="pt-8">
-          <p class="2xl:text-sm text-xs 2xl:leading-7  leading-6 font-normal text-[#2A333C]">Sous
+          <p class="2xl:text-sm text-xs 2xl:leading-7  leading-6 font-normal text-[#2A333C]">
             Placée sous la direction d’Olivier Marrone, qui bénéficie <br class="lg:block hidden"> d’une expérience
             confirmée
             dans le secteur des assurances depuis 1986, <br class="lg:block hidden"> UNIGESTA associe expertise
@@ -215,7 +218,7 @@
     <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 bg-white">
       <div class="text-center">
         <div>
-          <h1 class="2xl:text-[28px]  text-2xl leading-9 font-bold">Nos Services</h1>
+          <h1 class="2xl:text-[28px] text-2xl leading-9 font-bold">Nos Services</h1>
         </div>
         <div class="pt-5">
           <p class="2xl:text-sm text-xs 2xl:leading-7 md:leading-6 leading-7 font-normal">Nous proposons une gamme
@@ -228,206 +231,235 @@
       </div>
       <div
         class="lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 md:grid md:grid-cols-2 grid grid-cols-1 2xl:gap-8 xl:gap-7 gap-4 2xl:pt-16 pt-8">
-        <div class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] ">
-          <div class="flex items-center gap-4">
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
             <div>
-              <img src="./assets/img/shield.png" class="2xl:w-14 xl:w-12 w-10" alt="">
-            </div>
-            <div>
-              <h1 class="2xl:text-2xl xl:text-base lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de choses
-              </h1>
-            </div>
-          </div>
-          <div class="2xl:pl-5 xl:px-4 pl-3 pt-2">
-            <div class="flex items-center gap-3">
               <div>
-                <i class="fa-regular fa-circle text-xs"></i>
+                <img src="./assets/img/shield.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
               </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Commerce</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Bâtiment</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Ménage</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Véhicule
-                  à moteur</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Véhicule
-                  nautique</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] ">
-          <div class="flex items-center gap-4">
-            <div>
-              <img src="./assets/img/tab.png" class="2xl:w-14 xl:w-12 w-10" alt="">
             </div>
             <div>
-              <h1 class="2xl:text-2xl xl:text-base lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de
-                patrimoine
-              </h1>
-            </div>
-          </div>
-          <div class="2xl:pl-5 xl:px-4 pl-3 pt-2">
-            <div class="flex items-center gap-3">
               <div>
-                <i class="fa-regular fa-circle text-xs"></i>
+                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de
+                  choses
+                </h1>
               </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">RC professionnelle</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">RC privée
-                </p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">
-                  RC D&O</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Protection juridique</p>
+              <div class="2xl:pt-3 pt-1">
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Commer
+                      ce</p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Bâtiment</p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Ménage</p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Véhicule
+                      à moteur
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Véhicule
+                      nautique</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] ">
-          <div class="flex items-center gap-4">
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
             <div>
-              <img src="./assets/img/ani.png" class="2xl:w-14 xl:w-12 w-10" alt="">
+              <div>
+                <img src="./assets/img/tab.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
+              </div>
             </div>
             <div>
-              <h1 class="2xl:text-2xl xl:text-base lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de personnes
-              </h1>
+              <div>
+                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de
+                  patrimoine
+                </h1>
+              </div>
+              <div class="2xl:pt-3 pt-1">
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">RC professionnelle</p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">RC privée
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">RC D&O
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Protection juridique
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="2xl:pl-5 xl:px-4 pl-3 pt-2">
-            <div class="flex items-center gap-3">
+        </div>
+        <div
+          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
+            <div>
               <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">LAA</p>
+                <img src="./assets/img/ani.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
               </div>
             </div>
-            <div class="flex items-center gap-3">
+            <div>
               <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Perte de gain maladie
-                </p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Accident individuel</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Assurance maladie</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div>
-                <i class="fa-regular fa-circle text-xs"></i>
-              </div>
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">3ème Pillier A & B</p>
-              </div>
-            </div>
-            <div class="pl-7">
-              <div class="flex items-center gap-3">
-                <div>
-                  <i class="fa-solid fa-circle text-[8px]"></i>
-                </div>
-                <div>
-                  <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Prévoyances privées
-                  </p>
-                </div>
-              </div>
-              <div class="flex items-center gap-3">
-                <div>
-                  <i class="fa-solid fa-circle text-[8px]"></i>
-                </div>
-                <div>
-                  <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Épargne</p>
-                </div>
-              </div>
-              <div class="flex items-center gap-3">
-                <div>
-                  <i class="fa-solid fa-circle text-[8px]"></i>
-                </div>
-                <div>
-                  <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">décès,</p>
-                </div>
-              </div>
-              <div class="flex items-center gap-3">
-                <div>
-                  <i class="fa-solid fa-circle text-[8px]"></i>
-                </div>
-                <div>
-                  <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">rentes</p>
-                </div>
-              </div>
+                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de personnes
 
-              <div>
-                <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">LPP (2ème Pillier)</p>
+                </h1>
               </div>
+              <div class="2xl:pt-3 pt-1">
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">LAA
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Perte de gain maladie
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Accident individuel
 
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">Assurance maladie
+                    </p>
+                  </div>
+                </div>
+                <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
+                  <div>
+                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
+                  </div>
+                  <div>
+                    <p class="2xl:text-base text-xs leading-5 font-normal">3ème Pillier A & B
+                    </p>
+                  </div>
+                </div>
+                <div class="2xl:pl-7 pl-4">
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
+                    </div>
+                    <div>
+                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Prévoyances
+                        privées
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
+                    </div>
+                    <div>
+                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Épargne</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
+                    </div>
+                    <div>
+                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">décès,</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
+                    </div>
+                    <div>
+                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">rentes</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">LPP (2ème Pillier)
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- section end -->
+
+
 
 
   <!-- <div class=" 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FCFCFC] rounded-lg border-2 border-[#ECEAE6] flex gap-4">
@@ -467,7 +499,7 @@
 
 
   </div> -->
-  <!-- section end -->
+
   <!-- table section -->
   <!-- <section>
     <div class=" 2xl:px-36 lg:px-10 px-5 ">
@@ -648,6 +680,17 @@
 
   <!-- slider img  section-->
   <section>
+    <div class="text-center 2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10">
+      <div>
+        <h1 class="2xl:text-3xl  md:text-3xl text-2xl leading-9 font-bold">Nos Partenaires
+        </h1>
+      </div>
+      <div class="pt-5">
+        <p class="2xl:text-sm  text-xs 2xl:leading-7  leading-6 font-normal text-[#2A333C]">
+          Nous sélectionnons les meilleurs partenaires afin de vous offrir des solutions fiables, innovantes et
+          adaptées à vos besoins.</p>
+      </div>
+    </div>
     <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 overflow-hidden">
       <div class="slider flex items-center justify-between xl:gap-60 lg:gap-20 gap-10">
         <div><img src="./assets/img/resize-17597354622113789331generali.jpg" class="" alt=""></div>
@@ -666,7 +709,7 @@
         <div><img src="./assets/img/logo-groupe-mutuel.png" class="w-60" alt=""></div>
         <div><img src="./assets/img/allianz-logo.png" class="w-60" alt=""></div>
         <div><img src="./assets/img/helsana-logo.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/resize-1759735506778903981logoAXA2.png" class="" alt=""></div>
+        <div><img src="./assets/img/logo-AXA.png" class="w-48" alt=""></div>
         <div><img src="./assets/img/resize-17597355541943316238mobiliere3.png" class="" alt=""></div>
         <div><img src="./assets/img/Rentes Genevoises.png" class="w-60" alt=""></div>
         <div><img src="./assets/img/Solida.png" class="w-60" alt=""></div>
@@ -750,9 +793,9 @@
                   d'Ouverture</h1>
               </div>
               <div class="pt-2">
-                <p class="2xl:text-lg text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Lundi - Vendredi:
+                <p class="2xl:text-lg text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Lundi - Vendredi :
                   8h30 - 17h00<br class="xl:block md:block hidden">
-                  Samedi: Sur rendez-vous
+                  Samedi : Sur rendez-vous
                 </p>
               </div>
             </div>
@@ -800,9 +843,8 @@
               service de Genève depuis 2007.</p>
           </div>
           <div class="2xl:pt-4 pt-2">
-            <p class="2xl:text-lg  text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">Rue de la
-              Filature 42 <br class="lg:block hidden">1227 Carouge (Genève)
-              <br>Suisse
+            <p class="2xl:text-lg  text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">Rue de la Filature 42 <br
+                class="lg:block hidden">1227 Carouge
             </p>
           </div>
         </div>
@@ -813,38 +855,23 @@
           <h1 class="text-[#192634] 2xl:text-3xl  text-xl leading-8 font-bold">Nos Services</h1>
         </div>
         <ul class="pt-4">
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal ">Assurances Personnelles</li>
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal ">Assurances de
+            choses</li>
           <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances Entreprises</li>
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Planification de Retraite</li>
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Évaluation des Risques</li>
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Conseils en Financement</li>
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Gestion des Sinistres</li>
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances de
+            patrimoine</li>
+          
         </ul>
       </div>
       <div>
-        <div class="lg:pt-0 pt-3">
-          <h1 class="2xl:text-3xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">Contact</h1>
-        </div>
+
         <div class="pt-4">
-          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Tél: 022 809 03 10</p>
+          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
+              href="./treams & condiction.html">Conditions générales</a></p>
         </div>
         <div class="pt-2">
-          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Email: info@unigesta.ch</p>
-        </div>
-        <div class="pt-2">
-          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Lundi - Vendredi: 8h30 -
-            17h30
-            <br>
-            Samedi: Sur rendez-vous
-          </p>
-        </div>
-        <div class="2xl:pt-4 pt-2">
-          <p class="2xl:text-sm text-sm leading-6 font-normal text-[#657381]">Rue de la Filature 42
-            <br>1227
-            Carouge
-            (Genève)
-            <br>Suisse
-          </p>
+          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
+              href="./privecy policeses.html">Protection des données</a></p>
         </div>
       </div>
     </div>

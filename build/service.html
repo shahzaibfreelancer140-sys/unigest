@@ -7,6 +7,7 @@
     <title>Service</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="index.html">
 </head>
 
 <body>
@@ -15,17 +16,17 @@
         <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
             <!-- Logo -->
             <div>
-                <h1 class="2xl:text-2xl lg:text-xl leading-8 font-bold">UNIGESTA SA</h1>
+                <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-48 lg:w-46 w-24" alt="">
             </div>
 
             <!-- Desktop Menu (lg and above) -->
             <ul class="hidden lg:flex gap-11">
-                <li class="text-[#D7B242] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-                        href="./privacy and policy.html">Accueil</a></li>
-                <li class="text-[#657381] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-                        href="">Services</a></li>
-                <li class="text-[#657381] 2xl:text-base  lg:text-base text-lg leading-5 font-normal"><a
-                        href="">Contact</a></li>
+                <li class="text-[#D7B242] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./index.html">Accueil</a></li>
+                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./service.html">Services</a></li>
+                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+                        href="./contact.html">Contact</a></li>
             </ul>
 
             <!-- Desktop Button (lg and above) -->
@@ -51,17 +52,18 @@
                 </button>
 
                 <!-- Mobile/MD Menu -->
-                <ul id="mobile-menu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden">
-                    <li class="text-[#D7B242] text-xs leading-5 font-normal border-b border-gray-200">
-                        <a href="" class="block px-4 py-2">Accueil</a>
+                <ul id="mobile-menu"
+                    class="fixed top-[70px] left-0 right-0 w-full bg-white shadow-lg hidden z-50 px-5 py-3 text-center">
+                    <li class="text-[#D7B242] text-xs leading-5 font-normal py-2">
+                        <a href="./index.html" class="block">Accueil</a>
                     </li>
-                    <li class="text-[#657381] text-xs leading-5 font-normal border-b border-gray-200">
-                        <a href="" class="block px-4 py-2">Services</a>
+                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+                        <a href="./service.html" class="block">Services</a>
                     </li>
-                    <li class="text-[#657381] text-xs leading-5 font-normal">
-                        <a href="" class="block px-4 py-2">Contact</a>
+                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+                        <a href="./contact.html" class="block">Contact</a>
                     </li>
-                    <li class="bg-[#D7B242] rounded-md my-2 mx-2 text-center">
+                    <li class="bg-[#D7B242] rounded-md my-2 text-center">
                         <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
                     </li>
                 </ul>
@@ -114,7 +116,7 @@
                                 Protection complète pour votre patrimoine personnel</p>
                             <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Assurance habitation et
@@ -124,7 +126,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Assurance automobile tous
@@ -133,7 +135,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Assurance voyage et loisirs
@@ -142,7 +144,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Protection juridique</p>
@@ -168,11 +170,11 @@
                         </div>
                         <div class="2xl:pt-3 pt-1">
                             <p class="2xl:text-xl  text-xs 2xl:leading-9 leading-5 font-normal">
-                               Solutions
-                  de responsabilité</p>
+                                Solutions
+                                de responsabilité</p>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">professionnelle, propriété et
@@ -181,23 +183,24 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
-                                    <p class="2xl:text-base text-xs leading-5 font-normal">couverture commerciale pour les
+                                    <p class="2xl:text-base text-xs leading-5 font-normal">couverture commerciale pour
+                                        les
                                     </p>
                                 </div>
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">entreprises.
                                     </p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -222,7 +225,7 @@
                                 Couverture santé optimale pour vous et votre famille</p>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Assurance de base obligatoire
@@ -231,7 +234,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Assurances complémentaires
@@ -240,7 +243,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Optimisation des franchises
@@ -249,7 +252,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Conseil personnalisé santé
@@ -280,7 +283,7 @@
                                 Prévoyance Professionnelle</p>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">2ème pilier LPP</p>
@@ -288,7 +291,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">3ème pilier lié et libre</p>
@@ -296,7 +299,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Optimisation fiscale
@@ -305,7 +308,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Planification de retraite</p>
@@ -335,7 +338,7 @@
                                 Analyse complète de votre portefeuille d'assurances</p>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Audit de vos couvertures
@@ -344,7 +347,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Détection des lacunes et
@@ -353,7 +356,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Négociation avec les
@@ -363,7 +366,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Optimisation des primes</p>
@@ -393,7 +396,7 @@
                                 Accompagnement complet en cas de sinistre</p>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Déclaration et suivi des
@@ -402,7 +405,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Négociation avec les
@@ -411,7 +414,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Expertise et évaluation des
@@ -421,7 +424,7 @@
                             </div>
                             <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
                                 <div>
-                                    <i class="fas fa-circle text-[#D7B242] text-[8px]"></i>
+                                    <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                                 </div>
                                 <div>
                                     <p class="2xl:text-base text-xs leading-5 font-normal">Défense de vos intérêts</p>
@@ -501,80 +504,62 @@
     <!-- end section -->
 
     <hr>
-    <!-- footer -->
-    <footer>
-        <div
-            class="bg-white 2xl:px-36 lg:px-10 px-5 2xl:pt-12 pt-6 lg:flex justify-between  lg:text-start text-center ">
-            <div class="">
-                <div>
-                    <div>
-                        <h1 class="2xl:text-3xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">UNIGESTA SA
-                        </h1>
-                    </div>
-                    <div class="pt-4">
-                        <p class="2xl:text-lg  text-xs 2xl:leading-7 leading-5 font-normal text-[#657381]">Courtage et
-                            gestion d'assurance indépendante au <br class="lg:block hidden">
-                            service de Genève depuis 2007.</p>
-                    </div>
-                    <div class="2xl:pt-4 pt-2">
-                        <p class="2xl:text-lg  text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">Rue de la
-                            Filature 42 <br class="lg:block hidden">1227 Carouge (Genève)
-                            <br>Suisse
-                        </p>
-                    </div>
-                </div>
+  <!-- footer -->
+  <footer>
+    <div class="bg-white 2xl:px-36 lg:px-10 px-5 2xl:pt-12 pt-6 lg:flex justify-between  lg:text-start text-center ">
+      <div class="">
+        <div>
+          <div>
+            <h1 class="2xl:text-3xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">UNIGESTA SA
+            </h1>
+          </div>
+          <div class="pt-4">
+            <p class="2xl:text-lg  text-xs 2xl:leading-7 leading-5 font-normal text-[#657381]">Courtage et
+              gestion d'assurance indépendante au <br class="lg:block hidden">
+              service de Genève depuis 2007.</p>
+          </div>
+          <div class="2xl:pt-4 pt-2">
+            <p class="2xl:text-lg  text-xs 2xl:leading-6 leading-5 font-normal text-[#657381]">Rue de la Filature 42 <br
+                class="lg:block hidden">1227 Carouge
+            </p>
+          </div>
+        </div>
 
-            </div>
-            <div>
-                <div>
-                    <h1 class="text-[#192634] 2xl:text-3xl  text-xl leading-8 font-bold">Nos Services</h1>
-                </div>
-                <ul class="pt-4">
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal ">Assurances Personnelles</li>
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances Entreprises</li>
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Planification de Retraite</li>
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Évaluation des Risques</li>
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Conseils en Financement</li>
-                    <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Gestion des Sinistres</li>
-                </ul>
-            </div>
-            <div>
-                <div class="lg:pt-0 pt-3">
-                    <h1 class="2xl:text-3xl text-xl 2xl:leading-8 leading-6 font-bold text-[#192634]">Contact</h1>
-                </div>
-                <div class="pt-4">
-                    <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Tél: 022 809 03 10</p>
-                </div>
-                <div class="pt-2">
-                    <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Email: info@unigesta.ch</p>
-                </div>
-                <div class="pt-2">
-                    <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]">Lundi - Vendredi: 8h30 -
-                        17h30
-                        <br>
-                        Samedi: Sur rendez-vous
-                    </p>
-                </div>
-                <div class="2xl:pt-4 pt-2">
-                    <p class="2xl:text-sm text-sm leading-6 font-normal text-[#657381]">Rue de la Filature 42
-                        <br>1227
-                        Carouge
-                        (Genève)
-                        <br>Suisse
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div>
+        <div>
+          <h1 class="text-[#192634] 2xl:text-3xl  text-xl leading-8 font-bold">Nos Services</h1>
         </div>
-        <div class="py-8 2xl:px-36 xl:px-8 lg:px-8 px-8">
-            <hr>
+        <ul class="pt-4">
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal ">Assurances de
+            choses</li>
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances Entreprises</li>
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances de
+            patrimoine</li>
+        </ul>
+      </div>
+      <div>
+
+        <div class="pt-4">
+          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
+              href="./treams & condiction.html">Conditions générales</a></p>
         </div>
-        <div class="pb-12">
-            <p class="2xl:text-base text-sm leading-6 font-normal text-[#657381] text-center">© 2025 UNIGESTA SA.
-                Tous droits
-                réservés.</p>
+        <div class="pt-2">
+          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
+              href="./privecy policeses.html">Protection des données</a></p>
         </div>
-    </footer>
-    <!-- end footer -->
+      </div>
+    </div>
+    <div class="py-8 2xl:px-36 xl:px-8 lg:px-8 px-8">
+      <hr>
+    </div>
+    <div class="pb-12">
+      <p class="2xl:text-base text-sm leading-6 font-normal text-[#657381] text-center">© 2025 UNIGESTA SA.
+        Tous droits
+        réservés.</p>
+    </div>
+  </footer>
+  <!-- end footer -->
 
     <script>
         const toggleButton = document.getElementById('menu-toggle');
