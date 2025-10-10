@@ -10,70 +10,68 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav>
-        <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
-            <!-- Logo -->
-            <div>
-                <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-48 lg:w-46 w-24" alt="">
-            </div>
+  <!-- navbar -->
+  <nav>
+    <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
+      <!-- Logo -->
+      <div>
+        <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-48 lg:w-46 w-24" alt="">
+      </div>
 
-            <!-- Desktop Menu (lg and above) -->
-            <ul class="hidden lg:flex gap-11">
-                <li class="text-[#D7B242] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
-                        href="./index.html">Accueil</a></li>
-                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
-                        href="./service.html">Services</a></li>
-                <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
-                        href="./contact.html">Contact</a></li>
-            </ul>
+      <!-- Desktop Menu (lg and above) -->
+      <ul class="hidden lg:flex gap-11">
+        <li class="text-[#D7B242] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+            href="./index.html">Accueil</a></li>
+        <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+            href="./service.html">Services</a></li>
+        <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+            href="./contact.html">Contact</a></li>
+      </ul>
 
-            <!-- Desktop Button (lg and above) -->
-            <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
-                <button class="2xl:text-base  text-xs leading-5 font-normal">022 809 03 10</button>
-            </div>
-            <!-- Mobile + MD Toggle -->
-            <div class="lg:hidden relative">
-                <button id="menu-toggle" class="p-2">
-                    <!-- Hamburger Icon -->
-                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
+      <!-- Desktop Button (lg and above) -->
+      <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
+        <button class="2xl:text-base  text-xs leading-5 font-normal">022 809 03 10</button>
+      </div>
+      <!-- Mobile + MD Toggle -->
+      <div class="lg:hidden relative">
+        <button id="menu-toggle" class="p-2">
+          <!-- Hamburger Icon -->
+          <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
 
-                    <!-- Close Icon (hidden by default) -->
-                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden"
-                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
+          <!-- Close Icon (hidden by default) -->
+          <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black hidden" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
 
-                <!-- Mobile/MD Menu -->
-                <ul id="mobile-menu"
-                    class="fixed top-[70px] left-0 right-0 w-full bg-white shadow-lg hidden z-50 px-5 py-3 text-center">
-                    <li class="text-[#D7B242] text-xs leading-5 font-normal py-2">
-                        <a href="./index.html" class="block">Accueil</a>
-                    </li>
-                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
-                        <a href="./service.html" class="block">Services</a>
-                    </li>
-                    <li class="text-[#657381] text-xs leading-5 font-normal py-2">
-                        <a href="./contact.html" class="block">Contact</a>
-                    </li>
-                    <li class="bg-[#D7B242] rounded-md my-2 text-center">
-                        <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
-                    </li>
-                </ul>
-            </div>
-    </nav>
-    <!-- navbar end -->
+        <!-- Mobile/MD Menu -->
+        <ul id="mobile-menu"
+          class="fixed top-[70px] left-0 right-0 w-full bg-white shadow-lg hidden z-50 px-5 py-3 text-center">
+          <li class="text-[#D7B242] text-xs leading-5 font-normal py-2">
+            <a href="./index.html" class="block">Accueil</a>
+          </li>
+          <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+            <a href="./service.html" class="block">Services</a>
+          </li>
+          <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+            <a href="./contact.html" class="block">Contact</a>
+          </li>
+          <li class="bg-[#D7B242] rounded-md my-2 text-center">
+            <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!-- navbar end -->
   <!-- hero section -->
   <section style="background-image: url('./assets/img/Section.png');"
     class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[1080px] xl:h-[809px] lg:h-[577px] h-[480px]">
 
-    <div class="flex justify-center 2xl:pt-80 xl:pt-52 lg:pt-32 md:pt-28 pt-5 2xl:px-4 lg:px-10 px-5">
+    <div class="flex justify-center 2xl:pt-80 xl:pt-52 lg:pt-32 md:pt-28 pt-12 2xl:px-4 lg:px-10 px-5">
       <div>
         <div>
           <h1 class="2xl:text-6xl  text-4xl 2xl:leading-[66px] font-bold text-white">
@@ -410,43 +408,43 @@
                   </div>
                 </div>
                 <div class="2xl:pl-7 pl-4">
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 2xl:pt-3 lg:pt-1 pt-1">
                     <div>
                       <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Prévoyances
+                      <p class="2xl:text-base text-xs leading-5 font-normal">Prévoyances
                         privées
                       </p>
                     </div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 2xl:pt-2 lg:pt-1 pt-1">
                     <div>
                       <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">Épargne</p>
+                      <p class="2xl:text-base text-xs leading-5 font-normal">Épargne</p>
                     </div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 2xl:pt-2 lg:pt-1 pt-1">
                     <div>
                       <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">décès,</p>
+                      <p class="2xl:text-base text-xs leading-5 font-normal">décès,</p>
                     </div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 2xl:pt-2 lg:pt-1 pt-1">
                     <div>
                       <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">rentes</p>
+                      <p class="2xl:text-base text-xs leading-5 font-normal">rentes</p>
                     </div>
                   </div>
 
-                  <div>
-                    <p class="2xl:text-xl text-xs 2xl:leading-9 lg:leading-6 leading-6 font-normal">LPP (2ème Pillier)
+                  <div class="2xl:pt-2 lg:pt-1 pt-1">
+                    <p class="2xl:text-base text-xs leading-5 font-normal">LPP (2ème Pillier)
                     </p>
                   </div>
                 </div>
@@ -692,28 +690,31 @@
       </div>
     </div>
     <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 overflow-hidden">
-      <div class="slider flex items-center justify-between xl:gap-60 lg:gap-20 gap-10">
-        <div><img src="./assets/img/resize-17597354622113789331generali.jpg" class="" alt=""></div>
-        <div><img src="./assets/img/Zurich.webp" class="w-80" alt=""></div>
-        <div><img src="./assets/img/helvetia.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Assura.webp" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Baloise.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/CAP_Logo_Web_NEW.png" class="w-44" alt=""></div>
-        <div><img src="./assets/img/CIL.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Nautima.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Orgeco.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Orion.png" class="w-56" alt=""></div>
-        <div><img src="./assets/img/Patrimonia.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Protekta.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/resize-1759735627560705567VaudoiseAssurances4.jpg" class="" alt=""></div>
-        <div><img src="./assets/img/logo-groupe-mutuel.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/allianz-logo.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/helsana-logo.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/logo-AXA.png" class="w-48" alt=""></div>
-        <div><img src="./assets/img/resize-17597355541943316238mobiliere3.png" class="" alt=""></div>
-        <div><img src="./assets/img/Rentes Genevoises.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Solida.png" class="w-60" alt=""></div>
-        <div><img src="./assets/img/Tellco.png" class="w-60" alt=""></div>
+      <div class="slider flex items-center justify-between 2xl:gap-60 lg:gap-20 gap-12">
+        <div><img src="./assets/img/resize-17597354622113789331generali.jpg" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Zurich.webp" class="2xl:w-80 md:w-48 w-44" alt=""></div>
+        <div><img src="./assets/img/helvetia.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Assura.webp" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Baloise.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/CAP_Logo_Web_NEW.png" class="2xl:w-44 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/CIL.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Nautima.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Orgeco.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Orion.png" class="2xl:w-56 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Patrimonia.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Protekta.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/resize-1759735627560705567VaudoiseAssurances4.jpg" class="2xl:w-60 md:w-32 w-28"
+            alt="">
+        </div>
+        <div><img src="./assets/img/logo-groupe-mutuel.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/allianz-logo.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/helsana-logo.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/logo-AXA.png" class="2xl:w-48 md:w-28 w-24" alt=""></div>
+        <div><img src="./assets/img/resize-17597355541943316238mobiliere3.png" class="2xl:w-48 md:w-32 w-28" alt="">
+        </div>
+        <div><img src="./assets/img/Rentes Genevoises.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Solida.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Tellco.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
       </div>
     </div>
 
@@ -742,7 +743,7 @@
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Adresse</h1>
+                <h1 class="2xl:text-2xl lg:text-base text-base 2xl:leading-9 leading-5 font-bold">Adresse</h1>
               </div>
               <div class="pt-2">
                 <p class="2xl:text-lg  text-xs 2xl:leading-6 leading-5 font-normal text-[#FAFAFA]/80">Rue de la Filature
@@ -759,7 +760,7 @@
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Téléphone
+                <h1 class="2xl:text-2xl lg:text-base text-base 2xl:leading-9 leading-5 font-bold">Téléphone
                 </h1>
               </div>
               <div class="pt-2">
@@ -774,7 +775,7 @@
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">
+                <h1 class="2xl:text-2xl lg:text-base text-base 2xl:leading-9 leading-5 font-bold">
                   Email</h1>
               </div>
               <div class="pt-2">
@@ -789,7 +790,7 @@
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-base text-xl 2xl:leading-9 leading-5 font-bold">Heures
+                <h1 class="2xl:text-2xl lg:text-base text-base 2xl:leading-9 leading-5 font-bold">Heures
                   d'Ouverture</h1>
               </div>
               <div class="pt-2">
@@ -851,27 +852,27 @@
 
       </div>
       <div>
-        <div>
+        <div class="lg:pt-0 pt-7">
           <h1 class="text-[#192634] 2xl:text-3xl  text-xl leading-8 font-bold">Nos Services</h1>
         </div>
         <ul class="pt-4">
           <li class="text-[#657381] 2xl:text-base text-sm font-normal ">Assurances de
             choses</li>
-          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances Entreprises</li>
           <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances de
             patrimoine</li>
-          
+          <li class="text-[#657381] 2xl:text-base text-sm font-normal pt-2">Assurances de personnes</li>
+
         </ul>
       </div>
       <div>
 
-        <div class="pt-4">
-          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
-              href="./treams & condiction.html">Conditions générales</a></p>
+        <div class="lg:pt-4 pt-10">
+          <p class="2xl:text-base  text-sm  font-normal text-[#657381]"><a href="./treams  condiction.html">Conditions
+              générales</a></p>
         </div>
         <div class="pt-2">
-          <p class="2xl:text-base  text-sm leading-7 font-normal text-[#657381]"><a
-              href="./privecy policeses.html">Protection des données</a></p>
+          <p class="2xl:text-base  text-sm  font-normal text-[#657381]"><a href="./privecy policeses.html">Protection
+              des données</a></p>
         </div>
       </div>
     </div>
@@ -899,13 +900,6 @@
       closeIcon.classList.toggle('hidden');
     });
   </script>
-
-
-
-
-
-
-
 
 </body>
 
